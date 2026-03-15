@@ -58,8 +58,7 @@ export interface CreateStudentData {
   medical_notes?: string
 }
 
-export interface UpdateStudentData extends CreateStudentData {
-}
+export type UpdateStudentData = CreateStudentData
 
 export interface Test {
   id: string
